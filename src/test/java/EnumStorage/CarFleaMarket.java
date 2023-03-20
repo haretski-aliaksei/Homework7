@@ -32,4 +32,8 @@ public enum CarFleaMarket {
     CarFleaMarket(String CarFleaMarket) {
         this.nameCarFleaMarket = CarFleaMarket;
     }
+
+    public String getName() {
+        return nameCarFleaMarket;
+    }
 }
