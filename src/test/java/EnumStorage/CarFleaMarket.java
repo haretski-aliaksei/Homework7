@@ -1,6 +1,7 @@
 package EnumStorage;
 
 public enum CarFleaMarket {
+    CAR_FLEA_MARKET("Автобарахолка"),
     CAR_REVIEWS("Отзывы об авто"),
     NEW_CARS("Новые авто"),
     USED("С пробегом"),
