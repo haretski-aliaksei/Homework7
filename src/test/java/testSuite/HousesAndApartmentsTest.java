@@ -12,7 +12,6 @@ import java.util.List;
 import static helpers.OnlinerCatalogHelper.*;
 
 public class HousesAndApartmentsTest {
-
     @When("Наводим на пункт дома и квартиры")
     public void hoverOverHousesAndApartmentsSection() {
         hoverOver(getElement(HousesAndApartmentsSell.HOUSES_AND_APARTMENTS.getName()));

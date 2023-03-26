@@ -1,10 +1,10 @@
-package EnumStorage;
+package enumStorage;
 
 public enum CarFleaMarket {
     CAR_FLEA_MARKET("Автобарахолка"),
     CAR_REVIEWS("Отзывы об авто"),
     NEW_CARS("Новые авто"),
-    USED("С пробегом"),
+    USED_CARS("С пробегом"),
     PRICE_WITH_VAT("Цена с НДС"),
     AUTO_UP_TO_4000("Авто до 4000 р."),
     AUTO_UP_TO_10_000("Авто до 10 000 р."),

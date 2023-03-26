@@ -1,4 +1,4 @@
-package EnumStorage;
+package enumStorage;
 
 public enum MotofleaMarket {
     MOTOFLEA_MARKET("Мотобарахолка"),

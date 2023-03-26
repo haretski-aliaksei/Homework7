@@ -12,7 +12,6 @@ import java.util.List;
 import static helpers.OnlinerCatalogHelper.*;
 
 public class CarFleaMarketTest {
-
     @When("Наводим на пункт автобарахолка")
     public void hoverOverCarFleaMarketSection() {
         hoverOver(getElement(CarFleaMarket.CAR_FLEA_MARKET.getName()));

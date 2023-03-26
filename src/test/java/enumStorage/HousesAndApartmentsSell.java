@@ -2,12 +2,13 @@ package enumStorage;
 
 public enum HousesAndApartmentsSell {
     HOUSES_AND_APARTMENTS("Дома и квартиры"),
+    SELL("Продажа"),
     RENT("Аренда"),
     MINSK("Минск"),
     BREST("Брест"),
     VITEBSK("Витебск"),
     HOMEL("Гомель"),
-    HRODNO("Гродно"),
+    HRODNA("Гродно"),
     MAHILEV("Могилев"),
     ONE_ROOM("1-комнатные"),
     TWO_ROOM("2-комнатные"),
