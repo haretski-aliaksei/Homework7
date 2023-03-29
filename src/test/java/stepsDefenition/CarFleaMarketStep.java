@@ -1,4 +1,4 @@
-package testSuite;
+package stepsDefenition;
 
 import enumStorage.CarFleaMarket;
 import enumStorage.MotofleaMarket;
@@ -11,7 +11,7 @@ import java.util.List;
 
 import static helpers.OnlinerCatalogHelper.*;
 
-public class CarFleaMarketTest {
+public class CarFleaMarketStep {
     @When("Наводим на пункт автобарахолка")
     public void hoverOverCarFleaMarketSection() {
         hoverOver(getElement(CarFleaMarket.CAR_FLEA_MARKET.getName()));

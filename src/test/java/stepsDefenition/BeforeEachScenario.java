@@ -1,4 +1,4 @@
-package testSuite;
+package stepsDefenition;
 
 import com.codeborne.selenide.Configuration;
 import com.codeborne.selenide.Selenide;

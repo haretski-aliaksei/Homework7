@@ -1,4 +1,4 @@
-package testSuite;
+package stepsDefenition;
 
 import enumStorage.HousesAndApartmentsRent;
 import enumStorage.HousesAndApartmentsSell;
@@ -11,7 +11,7 @@ import java.util.List;
 
 import static helpers.OnlinerCatalogHelper.*;
 
-public class HousesAndApartmentsTest {
+public class HousesAndApartmentsStep {
     @When("Наводим на пункт дома и квартиры")
     public void hoverOverHousesAndApartmentsSection() {
         hoverOver(getElement(HousesAndApartmentsSell.HOUSES_AND_APARTMENTS.getName()));

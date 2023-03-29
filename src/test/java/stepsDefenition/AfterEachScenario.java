@@ -1,4 +1,4 @@
-package testSuite;
+package stepsDefenition;
 
 import com.codeborne.selenide.WebDriverRunner;
 import io.cucumber.java.After;
